@@ -36,11 +36,15 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+
+    /* Transição */
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease; /* Suavizada na animação */
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../img/pexels-img.jpg) no-repeat;
+    background: #5f2c82 url(../img/pexels-laptop.jpg) no-repeat;
     background-size: cover;
     background-position: left center;
     height: 200px;
